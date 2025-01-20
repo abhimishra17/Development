@@ -1,0 +1,32 @@
+.grandparent{
+  padding: 50px;
+  margin: 10px;
+  
+  border: solid 2px black;
+}
+.parent{
+  margin: 10px;
+  padding: 60px;
+  background-color: aliceblue;
+  border: solid 2px blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+
+}
+.child{
+  font-size: 10px;
+  max-width: 70px;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  border: solid 2px black;
+  word-wrap: break-word;
+
+ 
+}
+
+
